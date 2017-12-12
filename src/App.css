@@ -42,6 +42,7 @@
 
 .App-missionText {
   text-align: initial;
+  margin: 50px;
 }
 
 .App-textarea {
@@ -66,9 +67,16 @@
   width: 300px;
 }
 
+.App-surveyButton {
+  display: flex;
+  justify-content: center;
+}
+
 .container {
   width: 100%;
   padding: 0px;
+  margin: 0px;
+  max-width: unset;
 }
 
 @keyframes App-logo-spin {
