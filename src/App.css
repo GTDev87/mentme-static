@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+  color: teal;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: teal;
+  height: 125px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 3em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-mainImage {
+  max-width: 100%;
+}
+
+.App-textStatement {
+  font-size: 30px;
+  line-height: 1em;
+}
+
+.App-icon {
+  font-size: 80px;
+}
+
+.App-section {
+  margin-bottom: 50px;
+}
+
+.App-missionText {
+  text-align: initial;
+  margin: 50px;
+}
+
+.App-textarea {
+  width: 100%;
+  height: 2em;
+}
+
+.App-nameEmail {
+  display: flex;
+  justify-content: space-between;
+}
+
+.App-messageTextarea {
+  height: 8em;
+}
+
+.App-submitMessageButtonArea {
+  text-align: initial;
+}
+
+.App-shortTextarea {
+  width: 300px;
+}
+
+.App-surveyButton {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  max-width: unset;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
